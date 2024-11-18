@@ -1,4 +1,4 @@
-This repository contains files supporting our paper on building a global statistical burned area model for seamless integration into Dynamic Global Vegetation Models (DGVMs).  
+This contains files supporting our paper on building a global statistical burned area model for seamless integration into Dynamic Global Vegetation Models (DGVMs).  
 
 ## Introduction  
 
