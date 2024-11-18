@@ -12,7 +12,8 @@ Our paper, *A Statistical Global Burned Area Model for Seamless Integration into
 ## Workflow and Code Components  
 
 ### 1. Download the Data  
-Download the large data table from the Zenodo repository and place it in your working directory.  
+Download the large data table from the Zenodo repository and place it in your working directory:
+`https://doi.org/10.5281/zenodo.14110150`
 
 ### 2. Plot the Correlation Matrix  
 Run the following script to generate the correlation matrix plot:  
