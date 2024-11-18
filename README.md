@@ -17,30 +17,22 @@ Download the large data table from the Zenodo repository and place it in your wo
 ### 2. Plot the Correlation Matrix  
 Run the following script to generate the correlation matrix plot:  
 
-\`\`\`bash
-Model_fitting_&_plots/Correlation_matrix_plot_v1.R
-\`\`\`
+`Model_fitting_&_plots/Correlation_matrix_plot_v1.R`
 
 ### 3. Fit the Models  
 Run this script to fit various models and evaluate their performance based on deviance explained and normalized mean error:  
 
-\`\`\`bash
-Model_fitting_&_plots/Sensitivity_models_v1.R
-\`\`\`
+`Model_fitting_&_plots/Sensitivity_models_v1.R`
 
 ### 4. Generate Final Model and Plots  
 Fit the final model and generate associated plots, including the spatial distribution map and partial residual plots, by running:  
 
-\`\`\`bash
-Model_fitting_&_plots/Final_model_&_plot_v1.R
-\`\`\`
+`Model_fitting_&_plots/Final_model_&_plot_v1.R`
 
 ### 5. Plot Interannual Variability  
 To visualize interannual variability, run:  
 
-\`\`\`bash
-Model_fitting_&_plots/Interannual_variability_plot_v1.R
-\`\`\`
+`Model_fitting_&_plots/Interannual_variability_plot_v1.R`
 
 **Options for handling HDI:**  
 - Exclude HDI  
@@ -50,22 +42,16 @@ Model_fitting_&_plots/Interannual_variability_plot_v1.R
 ### 6. Plot Seasonal Variability  
 Run the following script to plot seasonal variability:  
 
-\`\`\`bash
-Model_fitting_&_plots/Seasonal_variability_plot_v1.R
-\`\`\`
+`Model_fitting_&_plots/Seasonal_variability_plot_v1.R`
 
 ### 7. Test for Trends in Burned Area Extent  
 Analyze trends in burned area extent across different GFED regions by running:  
 
-\`\`\`bash
-Model_fitting_&_plots/Mankendall_trend_test_v1.R
-\`\`\`
+`Model_fitting_&_plots/Mankendall_trend_test_v1.R`
 
 The required dataset is located at:  
 
-\`\`\`bash
-Datasets/GFED_trends.csv
-\`\`\`
+`Datasets/GFED_trends.csv`
 
 ### 8. Plot Spatial Variation in Trends and R-Squared Values  
 Visualize the following using the GeoJSON file provided:  
@@ -74,12 +60,9 @@ Visualize the following using the GeoJSON file provided:
 
 The file to use is:  
 
-\`\`\`bash
-Datasets/GFED_regions_&_results.geojson
-\`\`\`
+`Datasets/GFED_regions_&_results.geojson`
 
 These plots can be generated in any GIS software. Relevant fields for each parameter are included in the dataset.  
-
 ---
 
 
